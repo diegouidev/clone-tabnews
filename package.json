@@ -4,7 +4,7 @@
   "description": "repositório criado para o curso.dev do Filipe, que é fazer o clone do tabnews.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev docker compose -f infra/compose.yaml up --detach",
+    "dev": "next dev",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
